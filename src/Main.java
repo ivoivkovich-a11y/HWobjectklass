@@ -9,11 +9,11 @@ void main(String[] args) {
 
     System.out.println("alphabet.name = " + alphabet.getName());
     System.out.println("alphabet.year = " + alphabet.getYear());
+    System.out.println("alphabet.getAutor() = " + alphabet.getAutor());
     System.out.println("authorAlphabet.name = " + authorAlphabet.getName());
     System.out.println("authorAlphabet.surname = " + authorAlphabet.getSurname());
     System.out.println("whiteBimBlackEar.name = " + whiteBimBlackEar.getName());
     alphabet.setYear(1956);
     System.out.println("alphabet.year = " + alphabet.getYear());
-
 
 }
