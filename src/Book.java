@@ -14,5 +14,4 @@ public class Book {
 
     public int getYear(){return this.year;}
 
-
 }

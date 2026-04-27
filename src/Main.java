@@ -19,6 +19,4 @@ void main(String[] args) {
     System.out.println("whiteBimBlackEar.Author.getName() = " + whiteBimBlackEar.Author.getName());
     System.out.println("whiteBimBlackEar.Author.getSurname() = " + whiteBimBlackEar.Author.getSurname());
 
-
-
 }
