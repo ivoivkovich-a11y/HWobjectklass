@@ -1,37 +1,18 @@
 public class Book {
-    private String name;
-    private int year;
-    private String Author;
+    String name;
+    int year;
+    Author Author;
 
-
-    public Book (){
+    public Book (String name, int year,Author Author){
         this.name = name;
         this.year = year;
         this.Author = Author;
+
     }
 
-    public static Book createBook (String name, int year, String Author){
-        Book book = new Book();
-        book.name = name;
-        book.year = year;
-        book.Author = Author;
-        return book;
-    }
+    public String getName(){return this.name;}
 
-    public String getName(){
-        return this.name;
-    }
+    public int getYear(){return this.year;}
 
-    public int getYear(){
-        return this.year;
-    }
-
-    public String getAutor(){
-        return this.Author;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
 
 }
